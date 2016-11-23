@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.changqing.yiyao.main.MainActivity" >
+
+    <item
+        android:id="@+id/action_main"
+        android:orderInCategory="100"
+        android:title="action_main"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_genre"
+        android:orderInCategory="100"
+        android:title="action_genre"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        android:title="action_cart"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="action_search"
+        app:showAsAction="never"/>
+
+</menu>
