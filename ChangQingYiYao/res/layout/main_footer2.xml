@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:changqing="http://schemas.android.com/apk/res/com.changqing.medication.mobile"
+    android:background="#66878787"
+    android:orientation="horizontal">
+        <com.changqing.medication.views.BaseItemView
+            android:id="@+id/main_footer_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:onClick="navigationItemClick"
+            changqing:icon="@drawable/navigation_homebutton_normal"
+            changqing:text_size="14sp"
+            changqing:text="首页"/>
+
+        <com.changqing.medication.views.BaseItemView
+            android:id="@+id/main_footer_genre"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+             android:onClick="navigationItemClick"
+            changqing:icon="@drawable/navigation_genrebutton_normal"
+            changqing:text_size="14sp"
+            changqing:text="分类"/>
+
+        <com.changqing.medication.views.BaseItemView
+            android:id="@+id/main_footer_cart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+             android:onClick="navigationItemClick"
+            changqing:icon="@drawable/navigation_cartbutton_normal"
+            changqing:text_size="14sp"
+            changqing:text="购物车"/>
+
+        <com.changqing.medication.views.BaseItemView
+            android:id="@+id/main_footer_mine"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+             android:onClick="navigationItemClick"
+            changqing:icon="@drawable/navigation_minebutton_normal"
+            changqing:text_size="14sp"
+            changqing:text="我的"/>
+</LinearLayout>

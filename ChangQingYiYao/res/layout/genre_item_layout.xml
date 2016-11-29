@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <ImageButton 
+        android:id="@+id/genre_content_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/test_drug_yaoping"/>
+    <TextView 
+        android:id="@+id/genre_content_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分类内容项目名称"/>
+    <TextView 
+        android:id="@+id/genre_content_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分类内容项目名称"/>
+
+</LinearLayout>

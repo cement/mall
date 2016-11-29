@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout  
+        android:id="@+id/id_swipe_layout"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent" >  
+	    <android.support.v7.widget.RecyclerView
+	        android:id="@+id/main_content"
+	        android:dividerHeight="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+	    </android.support.v7.widget.RecyclerView>
+	   <!--  <android.support.design.widget.FloatingActionButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right|bottom"
+	        android:src="@drawable/ic_launcher"/> -->
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <include 
+	    layout="@layout/main_header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="top|center_horizontal"/>
+  
+    <include  
+        layout="@layout/main_footer2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"/>
+</FrameLayout >
